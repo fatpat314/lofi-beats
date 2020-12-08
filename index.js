@@ -1,8 +1,8 @@
-console.log("Hello NPM Package World");
+console.log("Eats your Beets");
 
-const sayHi = () => {
-  console.log("HIIIIIIIIIIIII!!!");
-}
+// const sayHi = () => {
+//   console.log("HIIIIIIIIIIIII!!!");
+// }
 
 // module.exports = {
 //   sayHi: () => {
@@ -27,3 +27,7 @@ exec("open https://www.youtube.com/watch?v=5qap5aO4i9A", (error, stdout, stderr)
 });
   }
 }
+
+const { sayHi } = require('lofi-beats');
+
+sayHi();
