@@ -4,11 +4,11 @@ console.log("Eats your Beets");
 //   console.log("HIIIIIIIIIIIII!!!");
 // }
 
-// module.exports = {
-//   sayHi: () => {
-//       console.log('HELLO')
-//   }
-// }
+module.exports = {
+  sayHi: () => {
+      console.log('HELLO')
+  }
+}
 
 module.exports = {
   sayHi: () => {
